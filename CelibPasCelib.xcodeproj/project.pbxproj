@@ -13,6 +13,7 @@
 		BF3927EC20CA5BBF0068708A /* CelibPasCelib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF3927EA20CA5BBF0068708A /* CelibPasCelib.xcdatamodeld */; };
 		BF3927EE20CA5BC00068708A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3927ED20CA5BC00068708A /* Assets.xcassets */; };
 		BF3927F120CA5BC00068708A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3927EF20CA5BC00068708A /* LaunchScreen.storyboard */; };
+		BF3927F920CA5CA50068708A /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3927F820CA5CA50068708A /* PreviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BF3927ED20CA5BC00068708A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF3927F020CA5BC00068708A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF3927F220CA5BC00068708A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF3927F820CA5CA50068708A /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				BF3927E320CA5BBF0068708A /* AppDelegate.swift */,
+				BF3927F820CA5CA50068708A /* PreviewViewController.swift */,
 				BF3927E520CA5BBF0068708A /* ViewController.swift */,
 				BF3927E720CA5BBF0068708A /* Main.storyboard */,
 				BF3927ED20CA5BC00068708A /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 				BF3927EC20CA5BBF0068708A /* CelibPasCelib.xcdatamodeld in Sources */,
 				BF3927E620CA5BBF0068708A /* ViewController.swift in Sources */,
 				BF3927E420CA5BBF0068708A /* AppDelegate.swift in Sources */,
+				BF3927F920CA5CA50068708A /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F43LL6328P;
 				INFOPLIST_FILE = CelibPasCelib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F43LL6328P;
 				INFOPLIST_FILE = CelibPasCelib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
